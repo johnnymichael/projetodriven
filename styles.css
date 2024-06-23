@@ -1,0 +1,241 @@
+body{
+  background-color: #FAFAFA;
+}
+.topo {
+  width: 100vw;
+  height: 54px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  border: 1px solid rgba(219, 219, 219, 1);
+  background: rgba(255, 255, 255, 1);
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+}
+.logo{
+  margin-left: 15.74%;
+}
+.logo,
+.logo img {
+  width: 103px;
+  height: 29px;
+  gap: 0px;
+  opacity: 0px;
+}
+.icones-topo{
+  margin-right: 15.74%;
+}
+
+.conteudo {
+  margin-top: 0 15.74% 0 15.74%;
+  display: flex;
+  justify-content: center;
+}
+.stories {
+  margin-top: 88px;
+  border: 1px solid rgba(219, 219, 219, 1);
+  display: flex;
+  width: 614px;
+  height: 118px;
+  border-radius: 3px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  overflow-x: auto; /* Habilita a rolagem horizontal */
+  -ms-overflow-style: none; /* Oculta a barra de rolagem no IE e Edge */
+  scrollbar-width: none; /* Oculta a barra de rolagem no Firefox */
+  background-color: #fff;
+}
+.stories::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem no Chrome, Safari e Opera */
+}
+.stories perfil {
+  width: 56px;
+}
+.perfilstories {
+  min-width: 68px;
+  margin: 24px 8px 12px 18px;
+  justify-content: center;
+  text-align: center;
+}
+.stories img {
+  width: 66px;
+  height: 66px;
+  gap: 0px;
+  border-radius: 28px 0px 0px 0px;
+  opacity: 0px;
+}
+.perfilstories h2 {
+  width: 78px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+}
+.posts {
+  background: rgba(255, 255, 255, 1);
+  width: 614px;
+  height: 717px;
+  justify-content: center;
+  text-align: center;
+}
+.post {
+  margin: 30px 0 60px 0;
+}
+.perfilpost {
+  border-radius: 3px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid rgba(219, 219, 219, 1);
+}
+.perfilpost img {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  opacity: 0px;
+}
+.perfilpost h2 {
+  margin: auto 0 auto 15px;
+}
+.post .postimg {
+  width: 100%;
+  margin: 0 auto;
+  top: 291px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+}
+.post .icones {
+  position: relative;
+  margin-top: 5px;
+}
+
+.sidebar {
+  width: 293px;
+  margin-top: 88px;
+  margin-left: 28px;
+}
+.perfilsidebar{
+  display: flex;
+  align-items: center;
+  margin: 30px 5px;
+}
+
+.perfilsidebar img{
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  opacity: 0px;
+  margin-right: 10px;
+}
+.perfilsidebar h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+}
+.perfilsidebar p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color:rgba(142, 142, 142, 1);
+  font-weight: 300;
+  line-height: 16.41px;
+}
+.sugestoes{
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.06px;
+  text-align: left;
+  margin-left: 5px;
+  color: rgba(142, 142, 142, 1);
+}
+.lista{
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 20px;
+  z-index: -1;
+}
+.lista a{
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: right;
+  position: absolute;
+  right: 5px;
+  text-decoration: none;
+  color: rgba(19, 158, 242, 1);
+}
+
+.lista img{
+  width: 32px;
+  height: 32px;
+  border-radius: 16px ;
+  opacity: 0px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.rodape{
+  width: 100%;
+}
+.rodape p{
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12.89px;
+  text-align: left;
+  color: rgba(199, 199, 199, 1);
+  width: 99%;
+  margin: 30px 5px 0 5px;
+}
+.alinharesquerda{
+  position: absolute;
+  left: 5px;
+}
+.alinhardireita {
+  position: absolute;
+  right: 5px;
+  }
+  @media (max-width:935px) { /*ajuste para tablet*/
+    .sidebar{
+      display: none;
+    }
+    .logo{
+      margin-left: 36px;
+    }
+    .icones-topo{
+      margin-right: 36px;
+    }
+    .alinhardireita{
+      right: 25px;
+    } 
+  }
+  @media (max-width: 614px) { /*ajuste para celular*/
+    .topo{
+      justify-content: center;
+    }
+    .sidebar{
+      display: none;
+    }
+    .conteudo{
+      justify-content: center;
+    }
+    .esquerda, .conteudo, .post{
+      width: 100vw;
+    }
+
+    .icones-topo{
+      display: none;
+    }
+    .post{
+      height: auto;
+    }
+  }

@@ -1,0 +1,102 @@
+.topo {
+  width: 100vw;
+  height: 54px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  border: 1px solid rgba(219, 219, 219, 1);
+  background: rgba(255, 255, 255, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.alinhasdireita {
+}
+.logo,
+.logo img {
+  width: 103px;
+  height: 29px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.conteudo {
+  border: 1px solid green;
+  margin-top: 88px;
+  display: flex;
+}
+.stories {
+  border: 1px solid blue;
+  display: flex;
+  width: 614px;
+  height: 118px;
+  border-radius: 3px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  overflow-x: auto; /* Habilita a rolagem horizontal */
+  -ms-overflow-style: none; /* Oculta a barra de rolagem no IE e Edge */
+  scrollbar-width: none; /* Oculta a barra de rolagem no Firefox */
+}
+.stories::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem no Chrome, Safari e Opera */
+}
+.stories perfil {
+  width: 56px;
+}
+.perfilstories {
+  min-width: 68px;
+  margin: 24px 8px 12px 18px;
+  justify-content: center;
+  text-align: center;
+}
+.stories img {
+  width: 56px;
+  height: 56px;
+  gap: 0px;
+  border-radius: 28px 0px 0px 0px;
+  opacity: 0px;
+}
+..perfilstories h2 {
+  width: 78px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+}
+.posts {
+  border: 1px solid gray;
+}
+.perfilpost {
+  display: flex;
+  text-align: center;
+  margin: 15px;
+}
+.perfilpost img {
+  width: 32px;
+  height: 32px;
+  top: 245px;
+  left: 232px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+}
+.perfilpost h2 {
+  margin: auto 0 auto 15px;
+}
+.postimg {
+  width: 612px;
+  height: 612px;
+  top: 291px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+}
+.sidebar {
+  border: 1px solid black;
+  width: 293px;
+}
+.alinhardireita {
+  margin-left: auto;
+}
